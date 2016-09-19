@@ -28,4 +28,5 @@ today.  You can check the tabling sheet here: [tinyurl.com/tableable](http://tin
 ## Homework
 * Spend some time going over your recreation of Medium and make sure to push 
 to GitHub.
+* Convert your CSS into SCSS using the template in the sass-intro folder.
 * Questions -- Google, fellow tier members, me!
