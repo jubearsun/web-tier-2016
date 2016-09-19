@@ -24,6 +24,10 @@ chums better!  At least grab coffee/boba :) You can check who you are partnered
 with here: [tinyurl.com/wearethechumpians](http://tinyurl.com/wearethechumpians)
 * TABLING! You should have all signed up for a tabling shift -- tabling started
 today.  You can check the tabling sheet here: [tinyurl.com/tableable](http://tinyurl.com/tableable)
+* HEX! Sign up to teach a HEX workshop about any special talent you have! It
+doesn't have to be limited to photo or design -- as long as it's creative!
+This is a very rewarding experience and I highly recommend it! Sign up here:
+[http://tinyurl.com/HEXfall16](http://tinyurl.com/HEXfall16)
 
 ## Homework
 * Spend some time going over your recreation of Medium and make sure to push 
