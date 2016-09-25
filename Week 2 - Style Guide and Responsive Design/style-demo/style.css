@@ -1,0 +1,210 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	z-index: 1;
+}
+
+body {
+	background: #EBEBEB;
+}
+
+.page-container {
+	padding: 2%;
+	width: 100%;
+}
+
+.page-container .profile {
+	width: 75%;
+	margin: 5% auto;
+}
+
+.page-container .profile .prof-img {
+	background: url(./img/prof-img.jpg);
+	background-repeat: none;
+	background-size: cover;
+	background-position: center center;
+	border-radius: 50%;
+	box-shadow: inset 0 3px 8px #333333;
+	height: 280px;
+	width: 280px;
+	margin: 0 auto 16px auto;
+}
+
+.page-container .profile .bio {
+	text-align: center;
+}
+
+.page-container .profile .bio .name {
+	font-size: 36px;
+	font-family: "Roboto", Arial;
+	font-weight: 300;
+	color: #333333;
+}
+
+.page-container .profile .bio .link {
+	position: relative;
+	font-size: 18px;
+	font-family: "Roboto", Arial;
+	text-decoration: none;
+	padding: 2px;
+	color: #777777;
+	transition: color 250ms linear;
+}
+
+.page-container .profile .bio .link:hover {
+	color: #ff69b4;
+}
+
+.page-container .profile .bio .link::after {
+	position: absolute;
+	top: 105%;
+	left: 50%;
+	content: "";
+	height: 2px;
+	width: 0;
+	background: #ff69b4;
+	transition: all 250ms linear;
+}
+
+.page-container .profile .bio .link:hover::after {
+	left: 0;
+	width: 100%;
+}
+
+.page-container .grid-wrapper {
+	width: 75%;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.page-container .grid-wrapper .col {
+	display: inline-block;
+	height: 23.04vw;
+	width: 32%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	box-shadow: 0 4px 4px #777;
+}
+
+.page-container .grid-wrapper .col .box {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	border: 3px solid white;
+	opacity: 0;
+	cursor: crosshair;
+	transition: all 250ms ease-out;
+}
+
+.page-container .grid-wrapper .col:hover .box {
+	top: 7.5%;
+	left: 7.5%;
+	right: 7.5%;
+	bottom: 7.5%;
+	opacity: 1;
+}
+
+.page-container .grid-wrapper .col.col--1 {
+	background: url(./img/image_one.jpeg);
+	background-repeat: none;
+	background-size: cover;
+	background-position: center center;
+}
+
+.page-container .grid-wrapper .col.col--2 {
+	background: url(./img/image_two.jpeg);
+	background-repeat: none;
+	background-size: cover;
+	background-position: center center;
+}
+
+.page-container .grid-wrapper .col.col--3 {
+	background: url(./img/image_three.jpeg);
+	background-repeat: none;
+	background-size: cover;
+	background-position: center center;
+}
+
+.page-container .grid-wrapper .col.col--4 {
+	background: url(./img/image_four.jpeg);
+	background-repeat: none;
+	background-size: cover;
+	background-position: center center;
+}
+
+.page-container .grid-wrapper .col.col--5 {
+	background: url(./img/image_five.jpeg);
+	background-repeat: none;
+	background-size: cover;
+	background-position: center center;
+}
+
+.page-container .grid-wrapper .col.col--6 {
+	background: url(./img/image_six.jpeg);
+	background-repeat: none;
+	background-size: cover;
+	background-position: center center;
+}
+
+.page-container .grid-wrapper .col.col--7 {
+	background: url(./img/image_seven.jpeg);
+	background-repeat: none;
+	background-size: cover;
+	background-position: center center;
+}
+
+.page-container .grid-wrapper .col.col--8 {
+	background: url(./img/image_eight.jpeg);
+	background-repeat: none;
+	background-size: cover;
+	background-position: center center;
+}
+
+.page-container .grid-wrapper .col.col--9 {
+	background: url(./img/image_nine.jpeg);
+	background-repeat: none;
+	background-size: cover;
+	background-position: center center;
+}
+
+.page-container .grid-wrapper .col:nth-child(3n) {
+	margin-right: 0;
+}
+
+@media (max-width: 880px) {
+	.page-container .grid-wrapper .col {
+		width: 49%;
+		height: 35.28vw;
+	}
+
+	.page-container .grid-wrapper .col:nth-child(3n) {
+		margin-right: 2%;
+	}
+
+	.page-container .grid-wrapper .col:nth-child(2n) {
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 640px) {
+	.page-container .grid-wrapper .col {
+		width: 100%;
+		height: 72vw;
+		margin-right: 0;
+		margin-bottom: 5%;
+	}
+}
+
+@media (max-width: 500px) {
+	.page-container .profile .prof-img {
+		height: 200px;
+		width: 200px;
+	}
+}
+

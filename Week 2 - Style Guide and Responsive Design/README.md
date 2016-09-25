@@ -9,6 +9,11 @@ who requested it.  Hopefully we can get working on it next week.
 * I'm going to go through an HTML file I created and you're going to tell me
 how to convert it to scss! - [https://github.com/jubearsun/hex-sp16](https://github.com/jubearsun/hex-sp16)
 * Demonstrate Emmet :) - [https://github.com/cle1994/InnoD_Web_Handbook/blob/master/1-setup_and_basics.md#helpful-things](https://github.com/cle1994/InnoD_Web_Handbook/blob/master/1-setup_and_basics.md#helpful-things) 
+* What am I applying to all elements in the CSS file?
+    * The star `*` selects all elements.
+    * box-sizing: border-box and position: relative...what do they mean?
+    * Tell me the difference between positions `static`, `relative`, `fixed`
+    and `absolute`
 
 ## Why do we need a style guide?
 * Everyone has their own unique styles and way that they do things -- however, 
@@ -19,6 +24,15 @@ since we will be working on projects together, code should be consistent!
 - your website is not done if it works on Desktop but doesn't look quite
 right on mobile, or on a widescreen monitor.
 * All client websites will need to be responsive!
+
+## Reset/Normalize
+* [Normalize CSS](https://necolas.github.io/normalize.css/) makes sure all 
+browsers render your webpage more consistently.  All browsers have different
+default styles.  Try creating an index.html file and opening it in your browser
+of choice.  There's padding and margins even if you don't have any CSS file 
+attached.  Normalize gets rid of these default paddings/margins so you can have
+more consistent styling across all browsers.
+* Normalize is ALWAYS the first thing you import before your own CSS files.
 
 ## Style Guide
 * Tabs and Spacing: We'll be using 2 space indents!  Make sure to configure
