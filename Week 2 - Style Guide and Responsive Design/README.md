@@ -5,6 +5,14 @@
 * We have a first project, but I need to get details worked out with the person
 who requested it.  Hopefully we can get working on it next week.
 
+## Icebreakers!
+* We're going to get into pairs and you will converse with your fellow tier
+member for 10 minutes.
+* Wander around outside, take a photo of your person and post something you 
+learned about this person! (Make sure you talk about different things with
+different people so your partners don't post the same thing about you)
+* Come back in 10 minutes and switch partners.
+
 ## Warm Up
 * I'm going to go through an HTML file I created and you're going to tell me
 how to convert it to scss! - [https://github.com/jubearsun/hex-sp16](https://github.com/jubearsun/hex-sp16)
