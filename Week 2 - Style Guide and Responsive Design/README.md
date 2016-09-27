@@ -15,7 +15,8 @@ different people so your partners don't post the same thing about you)
 
 ## Warm Up
 * I'm going to go through an HTML file I created and you're going to tell me
-how to convert it to scss! - [https://github.com/jubearsun/hex-sp16](https://github.com/jubearsun/hex-sp16)
+how to convert it to scss! The example will be pushed to this folder under
+`style-demo`
 * Demonstrate Emmet :) - [https://github.com/cle1994/InnoD_Web_Handbook/blob/master/1-setup_and_basics.md#helpful-things](https://github.com/cle1994/InnoD_Web_Handbook/blob/master/1-setup_and_basics.md#helpful-things) 
 * What am I applying to all elements in the CSS file?
     * The star `*` selects all elements.
