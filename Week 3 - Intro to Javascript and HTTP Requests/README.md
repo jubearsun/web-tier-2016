@@ -1,5 +1,24 @@
 # Week 3 - Intro to Javascript and HTTP Requests
 
+## Logistics
+* We have a confirmed project! We are doing the website for the International
+Relations Council at Berkeley.  They are a relatively new club and they don't
+have a logo or old website we can go off of, which means we can start from 
+scratch!
+* About them: An umbrella organization of international relations 
+organizations on campus. 
+
+## Warm-Up
+* They want:
+  * A landing page with a background image and the organization name overlaid
+  * A navbar with the logo on it
+  * An about page with the names of each officer and short descriptions.
+* Find some examples of these features that you like and be prepared to talk
+about why you like them
+* We will agree on a design/format I will present to the club this week.
+
+## Lesson
+
 Hi! I (Christian) will be leading this meeting on Javascript and HTTP Requests.
 
 ### Downloads
