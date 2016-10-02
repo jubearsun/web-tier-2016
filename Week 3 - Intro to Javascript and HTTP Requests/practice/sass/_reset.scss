@@ -1,0 +1,20 @@
+html {
+  @include box-sizing(border-box);
+  font-size: 16px;
+  line-height: 1.6;
+  color: black;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  position: relative;
+  padding: 0;
+  background: none;
+}
+
+body {
+  background: white;
+}
+
