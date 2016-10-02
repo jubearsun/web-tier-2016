@@ -38,9 +38,9 @@ I'll upload whatever files and notes I type after the meeting
 ### Callbacks: Making HTTP Requests and REST
 
 I've set up an RESTful API for you guys to hit at
-[webtier2016.christianle.com](http://webtier2016.christianle.com/docs). If you click on the link,
-it'll take you to the documentation for the API, don't worry it's a really simple API to get you
-familiar with making requests and dealing with callbacks.
+[webtier2016.christianle.com](http://webtier2016.christianle.com/documentation).
+If you click on the link, it'll take you to the documentation for the API, don't worry
+it's a really simple API to get you familiar with making requests and dealing with callbacks.
 
 I'll quickly go over the most common types of HTTP requests:
   * `GET`: gets data from a given server at a given URI, it doesn't send a body and shouldn't
