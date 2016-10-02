@@ -4,11 +4,14 @@ Hi! I (Christian) will be leading this meeting on Javascript and HTTP Requests.
 
 ### Downloads
 
-Please download the [insomnia app](https://insomnia.rest/), it'll help you debug APIs and let you
-send requests to a server without writing a line of code :smiley:
+Please download the [postman app](https://www.getpostman.com/), it's one of the most mature
+API testing apps. If you're feeling experimental, try the [insomnia app](https://insomnia.rest).
+It pretty much does the same thing, I just like the way insomnia looks and it's ironic that
+it's called insomnia :grin:. Fair warning though, insomnia does have some issues with not
+updating DNS information (at least for me).
 
-There's also the [postman app](https://www.getpostman.com/) that does the same thing, I just like
-the way insomnia looks and it's ironic that it's called insomnia :grin:
+Either will help you debug APIs and let you send requests to a server without writing a
+line of code :smiley:
 
 ### Javascript
 
