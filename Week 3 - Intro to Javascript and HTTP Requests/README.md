@@ -7,6 +7,8 @@ have a logo or old website we can go off of, which means we can start from
 scratch!
 * About them: An umbrella organization of international relations 
 organizations on campus. 
+* I'm going to be setting up 1:1 meetings with each of you over boba
+or a snack of your choice this week or next week. :) 
 
 ## Warm-Up
 * They want:
