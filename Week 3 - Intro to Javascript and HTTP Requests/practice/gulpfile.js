@@ -4,7 +4,7 @@ const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 
 gulp.task('sass', () => {
-  return gulp.src('./sass/_index.scss')
+  return gulp.src('./sass/index.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(rename('styles.css'))
     .pipe(gulp.dest('./assets/css'))
