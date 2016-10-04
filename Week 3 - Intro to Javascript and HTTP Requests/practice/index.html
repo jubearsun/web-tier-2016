@@ -10,9 +10,30 @@
 </head>
 
 <body>
+  <div class="page">
+    <h1 class="title">Send me a message!</h1>
+    <form action="#" id="request__form">
+      <label class="input__label" for="name">Name</label>
+      <input class="input__field" type="text" name="name" id="name" required />
+      <label class="input__label" for="email">Email</label>
+      <input class="input__field" type="text" name="email" id="email" required />
+      <label class="input__label" for="message">Message</label>
+      <textarea class="input__field" id="message" name="message"></textarea>
 
+      <input class="input__field" type="submit" value="submit" id="submit">
+      <div id="message__response"></div>
+    </form>
+
+    <h1 class="title">Generate a random color!</h1>
+    <div class="colors">
+      <button id="color__gen">
+        Go
+      </button>
+      <div id="hex__response"></div>
+    </div>
+  </div>
   <!-- Javascript Sources  -->
-  <script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> 
+  <script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="assets/js/vendor/superagent.js"></script>
   <script src="assets/js/index.js"></script>
 </body>
