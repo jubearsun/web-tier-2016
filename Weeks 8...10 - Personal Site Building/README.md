@@ -36,7 +36,18 @@
 
 <a name="hover"></a>
 ### Image Hover Effects
-* [Codepen](http://codepen.io/jubearsun/pen/VmwWYJ)
+* [Codepen Examples](http://codepen.io/jubearsun/pen/VmwWYJ)
+* Positions
+    * static: default position where elements render in order
+    * relative: elements positioned relative to the default position
+        * You need to set position to relative in order to indicate top,
+          left, right, bottom (e.g. `top: 20px;` will set the element to 20px
+          from the top of where it would usually be at)
+    * absolute: element is positioned relative to its first positioned ancestor
+      element
+        * This is why you need to set the position of the ancestor element
+        * You set the position of an overlay to absolute
+    * fixed: element is positioned relative to browser window
 
 <a name="design"></a>
 ### Design
