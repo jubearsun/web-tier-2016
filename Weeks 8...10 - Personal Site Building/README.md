@@ -7,6 +7,7 @@
   * [Grids](#grids)
   * [Image Hover Effects](#hover)
 * [Prefix Links](#prefix)
+* [Deploying](#deploy)
 * [Design](#design)
 * [Inspiration](#inspiration)
 
@@ -65,6 +66,22 @@
     I would set `linkPrefix="/innovative-design"`
   * Here, innovative-design is currently hosted at `innovativedesign.club` so I 
     remove the linkPrefix
+
+<a name="deploy"></a>
+## Deploying
+* Using a regular framework/vanilla code
+  * In regular cases, as long as you have an `index.html` in the root of your folder
+    you can just push a `gh-pages` branch and you will be able to find your
+    project at `<username>.github.io/<repo-name>`
+  * If you're creating a personal site, you can just push an `index.html` to
+    your GitHub and see it at `<username>.github.io`
+  * More instructions [here](https://pages.github.com/)
+* Gatsby doesn't have `index.html` in the root folder, but if you look at the
+  `package.json` there is a script for deploying
+  * Just run `npm run deploy`! If you don't have this script you can copy it
+    from [here](https://github.com/jubearsun/cmyk/blob/master/package.json) (line 29)
+  * Now you can view your project at the same location as before, at
+    `<username>.github.io/<repo-name>`
 
 <a name="design"></a>
 ## Design
