@@ -6,6 +6,7 @@
   * [SVG](#svg)
   * [Grids](#grids)
   * [Image Hover Effects](#hover)
+* [Prefix Links](#prefix)
 * [Design](#design)
 * [Inspiration](#inspiration)
 
@@ -40,17 +41,33 @@
 * Positions
     * static: default position where elements render in order
     * relative: elements positioned relative to the default position
-        * You need to set position to relative in order to indicate top,
-          left, right, bottom (e.g. `top: 20px;` will set the element to 20px
-          from the top of where it would usually be at)
+      * You need to set position to relative in order to indicate top,
+        left, right, bottom (e.g. `top: 20px;` will set the element to 20px
+        from the top of where it would usually be at)
     * absolute: element is positioned relative to its first positioned ancestor
       element
-        * This is why you need to set the position of the ancestor element
-        * You set the position of an overlay to absolute
+      * This is why you need to set the position of the ancestor element
+      * You set the position of an overlay to absolute
     * fixed: element is positioned relative to browser window
 
+<a name="prefix"></a>
+## Prefix Links
+* When you're using a URL in gatsby, you need to wrap it with `prefixLink`
+* This is because when you're hosting the page on GitHub and haven't set your
+  own domain, the browser needs to prefix all your links with the GitHub repo
+  or it won't know where to look
+* Example: if you want to link an image `<img src={ prefixLink(/img/cat.png) }/>`
+* Make sure to `import { prefixLink } from 'gatsby-helpers';` at the top of the file
+* In your `config.toml` you set your linkPrefix to be your GitHub repo but remove
+  it once you have your own domain
+  * [Example](https://github.com/jubearsun/innovative-design/blob/master/config.toml)
+  * If I was hosting innovative-design at `jubearsun.github.io/innovative-design`
+    I would set `linkPrefix="/innovative-design"`
+  * Here, innovative-design is currently hosted at `innovativedesign.club` so I 
+    remove the linkPrefix
+
 <a name="design"></a>
-### Design
+## Design
 * [Material Design](https://material.google.com/)
 * [7 Rules for Creating Gorgeous UI](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda#.dq2xwhbnc)
 
