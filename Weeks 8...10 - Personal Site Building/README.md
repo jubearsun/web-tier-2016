@@ -38,7 +38,7 @@
 
 <a name="hover"></a>
 ### Image Hover Effects
-* [Codepen Examples](http://codepen.io/jubearsun/pen/VmwWYJ)
+* [Codepen Examples](http://codepen.io/jubearsun/pen/eBNRNW)
 * Positions
     * static: default position where elements render in order
     * relative: elements positioned relative to the default position
