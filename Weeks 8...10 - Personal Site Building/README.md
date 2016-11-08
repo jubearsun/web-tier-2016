@@ -87,6 +87,7 @@
 ## Design
 * [Material Design](https://material.google.com/)
 * [7 Rules for Creating Gorgeous UI](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda#.dq2xwhbnc)
+* [Grace's slides](https://drive.google.com/file/d/0BzTA2Rjp51sQMlR3a3FpZEMtT00/view)
 
 <a name="inspiration"></a>
 ## Inspiration
