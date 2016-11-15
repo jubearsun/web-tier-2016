@@ -6,6 +6,7 @@
   * [SVG](#svg)
   * [Grids](#grids)
   * [Image Hover Effects](#hover)
+  * [Keyframes](#keyframe)
 * [Prefix Links](#prefix)
 * [Deploying](#deploy)
 * [Design](#design)
@@ -18,10 +19,12 @@
 ### Navigation
 * Single page navigation
   * [react-scroll](https://github.com/fisshy/react-scroll)
-* Navigation between pages
-  * [Hamburger collapse codepen](http://codepen.io/cle1994/pen/JRZkpL)
+* Using Gatsby 
   * [Innod website example](https://github.com/jubearsun/innovative-design/blob/master/pages/_template.jsx)
   * [IRC website example](https://github.com/InnoD-WebTier/irc/blob/master/pages/_template.jsx)
+* Without using Gatsby
+  * [Sidebar nav Codepen](http://codepen.io/cle1994/pen/MbeQJG)
+  * [Hamburger collapse codepen](http://codepen.io/cle1994/pen/JRZkpL)
 
 <a name="svg"></a>
 ### SVG
@@ -50,6 +53,10 @@
       * This is why you need to set the position of the ancestor element
       * You set the position of an overlay to absolute
     * fixed: element is positioned relative to browser window
+
+<a name="keyframe"></a>
+### Keyframes
+* [Innod Codepen](http://codepen.io/cle1994/pen/gLMoJb?editors=1100#0)
 
 <a name="prefix"></a>
 ## Prefix Links
