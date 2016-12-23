@@ -20,6 +20,9 @@
 
 ## Grid Lesson
 * I'm going to teach you how to create responsive grids!  Please follow along.
+* [hex lesson on grids](https://github.com/jubearsun/hex-sp16)
+* You can also use [Jeet](http://jeet.gs/)...but I highly recommend learning
+  how to make grids yourself!
 
 # Try your hand at React-Scroll
 * We're going to be using [react-scroll](https://github.com/fisshy/react-scroll)
